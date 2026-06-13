@@ -1,0 +1,699 @@
+{
+  "generated_from": {
+    "current_pdf": "/Users/rudrachopra/Downloads/paper_arXiv.pdf",
+    "supporting_pdf": "/Users/rudrachopra/Downloads/dts_overleaf.pdf",
+    "main_results_zip": "/Users/rudrachopra/Downloads/dts_fallvision_outputs.zip",
+    "generalization_zip": "/Users/rudrachopra/Downloads/dts_aaai_one_run_outputs.zip"
+  },
+  "dataset": {
+    "n_total": 4927,
+    "n_falls": 2154,
+    "n_nonfalls": 2773,
+    "n_train": 3153,
+    "n_val": 788,
+    "n_test": 986,
+    "test_falls": 431,
+    "test_nonfalls": 555
+  },
+  "theory": {
+    "mu_f": 0.1706767811976061,
+    "mu_n": 0.38148932484420617,
+    "sigma_f": 0.1645223306517444,
+    "sigma_n": 0.2202889746401749,
+    "levene_p": 1.991160626536268e-24,
+    "eps_star": 0.293850733803781,
+    "epsilon": 1e-08
+  },
+  "hyperparameter_tuning": {
+    "selection_policy": "Fixed grids selected on validation AUROC with F1 tie-break; test labels were not used for model selection.",
+    "random_seeds": [
+      42,
+      20260610
+    ],
+    "selected": {
+      "DTS+LR": {
+        "C": 0.5,
+        "max_iter": 2000,
+        "scaler": "StandardScaler"
+      },
+      "DTS+ET": {
+        "n_estimators": 300,
+        "max_features": "sqrt",
+        "random_state": 42
+      },
+      "DTS+RF": {
+        "n_estimators": 300,
+        "max_features": "sqrt",
+        "random_state": 42
+      },
+      "DTS+HGB": {
+        "max_iter": 300,
+        "learning_rate": 0.1,
+        "l2_regularization": 0.0,
+        "random_state": 42
+      },
+      "LSTM": {
+        "layers": 2,
+        "hidden": 128,
+        "dropout": 0.3,
+        "lr": 0.001,
+        "epochs": 30
+      },
+      "GRU": {
+        "layers": 2,
+        "hidden": 128,
+        "dropout": 0.3,
+        "lr": 0.001,
+        "epochs": 30
+      },
+      "Transformer": {
+        "d_model": 64,
+        "heads": 4,
+        "layers": 2,
+        "dropout": 0.1,
+        "lr": 0.001,
+        "epochs": 30
+      },
+      "DTS-Net": {
+        "hidden": [
+          64,
+          32
+        ],
+        "dropout": 0.15,
+        "lambda_aux": 0.15,
+        "lr": 0.003,
+        "epochs": 80
+      },
+      "SimpleST-GCN": {
+        "graph": "COCO-17 adjacency",
+        "channels": [
+          64,
+          64,
+          128
+        ],
+        "dropout": 0.3,
+        "lr": 0.001
+      },
+      "MiniROCKET": {
+        "classifier": "aeon MiniRocketClassifier",
+        "n_kernels_grid": [
+          1000,
+          5000,
+          10000
+        ],
+        "max_T": 150
+      }
+    }
+  },
+  "main_results": [
+    {
+      "model": "LSTM",
+      "status": "complete",
+      "auroc": 0.9969649463849,
+      "auroc_ci": [
+        0.9935813108519731,
+        0.9988418312286232
+      ],
+      "auroc_ci_method": "saved_bootstrap",
+      "f1": 0.9721577726218097,
+      "f1_ci": [
+        0.9604790419161676,
+        0.9825783972125436
+      ],
+      "precision": 0.9721577726218097,
+      "precision_ci": [
+        0.9560178110567781,
+        0.9863945578231292
+      ],
+      "recall": 0.9721577726218097,
+      "recall_ci": [
+        0.9557109557109557,
+        0.9862708065577881
+      ],
+      "accuracy": 0.9756592292089249,
+      "accuracy_ci": [
+        0.9655172413793104,
+        0.9847870182555781
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 12,
+      "fn": 12,
+      "threshold": 0.507
+    },
+    {
+      "model": "GRU",
+      "status": "complete",
+      "auroc": 0.9976547312974228,
+      "auroc_ci": [
+        0.9951932172864559,
+        0.9992813712639078
+      ],
+      "auroc_ci_method": "saved_bootstrap",
+      "f1": 0.9801169590643275,
+      "f1_ci": [
+        0.9701834862385321,
+        0.9887640449438202
+      ],
+      "precision": 0.9882075471698113,
+      "precision_ci": [
+        0.977116704805492,
+        0.9976190476190476
+      ],
+      "recall": 0.9721577726218097,
+      "recall_ci": [
+        0.9557522123893806,
+        0.9862700228832952
+      ],
+      "accuracy": 0.9827586206896551,
+      "accuracy_ci": [
+        0.9746450304259635,
+        0.9898580121703854
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 5,
+      "fn": 12,
+      "threshold": 0.743
+    },
+    {
+      "model": "Transformer",
+      "status": "complete",
+      "auroc": 0.9979724504086454,
+      "auroc_ci": [
+        0.9955208558756644,
+        0.9997787572218342
+      ],
+      "auroc_ci_method": "saved_bootstrap",
+      "f1": 0.9907192575406032,
+      "f1_ci": [
+        0.9837587006960556,
+        0.996547756041427
+      ],
+      "precision": 0.9907192575406032,
+      "precision_ci": [
+        0.9809523809523809,
+        0.9977876106194691
+      ],
+      "recall": 0.9907192575406032,
+      "recall_ci": [
+        0.980727922396223,
+        0.9977678571428571
+      ],
+      "accuracy": 0.9918864097363083,
+      "accuracy_ci": [
+        0.9858012170385395,
+        0.9969574036511156
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 4,
+      "fn": 4,
+      "threshold": 0.10500000000000001
+    },
+    {
+      "model": "MiniROCKET",
+      "status": "complete",
+      "auroc": 0.9402437240024247,
+      "auroc_ci": [
+        0.9239643330981223,
+        0.9565231149067271
+      ],
+      "auroc_ci_method": "hanley_mcneil_approx",
+      "f1": 0.9316628701594533,
+      "f1_ci": [
+        0.9138321995464853,
+        0.9482763362543151
+      ],
+      "precision": 0.9149888143176734,
+      "precision_ci": [
+        0.888646288209607,
+        0.9395250891556582
+      ],
+      "recall": 0.9489559164733179,
+      "recall_ci": [
+        0.9271523178807947,
+        0.9688265387689846
+      ],
+      "accuracy": 0.9391480730223124,
+      "accuracy_ci": [
+        0.9239350912778904,
+        0.9533468559837728
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 38,
+      "fn": 22,
+      "threshold": 0.05
+    },
+    {
+      "model": "DTS+LR",
+      "status": "complete",
+      "auroc": 0.9423548838862064,
+      "auroc_ci": [
+        0.9263613287438139,
+        0.9583484390285988
+      ],
+      "auroc_ci_method": "hanley_mcneil_approx",
+      "f1": 0.8759776536312849,
+      "f1_ci": [
+        0.8524970963995354,
+        0.8982857718313911
+      ],
+      "precision": 0.8448275862068966,
+      "precision_ci": [
+        0.8115631691648822,
+        0.8774204136373261
+      ],
+      "recall": 0.9095127610208816,
+      "recall_ci": [
+        0.8814308568752927,
+        0.9360189573459715
+      ],
+      "accuracy": 0.8874239350912779,
+      "accuracy_ci": [
+        0.8671399594320487,
+        0.9066937119675457
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 72,
+      "fn": 39,
+      "threshold": 0.402
+    },
+    {
+      "model": "DTS+ET",
+      "status": "complete",
+      "auroc": 0.9998411404443887,
+      "auroc_ci": [
+        0.9989989822213274,
+        1.0
+      ],
+      "auroc_ci_method": "hanley_mcneil_approx",
+      "f1": 0.9919447640966629,
+      "f1_ci": [
+        0.9854748603351955,
+        0.9976076555023924
+      ],
+      "precision": 0.9840182648401826,
+      "precision_ci": [
+        0.9713656387665198,
+        0.9952267303102625
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        1.0,
+        1.0
+      ],
+      "accuracy": 0.9929006085192698,
+      "accuracy_ci": [
+        0.986815415821501,
+        0.9979716024340771
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 7,
+      "fn": 0,
+      "threshold": 0.227
+    },
+    {
+      "model": "DTS+RF",
+      "status": "complete",
+      "auroc": 0.9997993352981752,
+      "auroc_ci": [
+        0.9988528302262661,
+        1.0
+      ],
+      "auroc_ci_method": "hanley_mcneil_approx",
+      "f1": 0.9919447640966629,
+      "f1_ci": [
+        0.9854748603351955,
+        0.9976076555023924
+      ],
+      "precision": 0.9840182648401826,
+      "precision_ci": [
+        0.9713656387665198,
+        0.9952267303102625
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        1.0,
+        1.0
+      ],
+      "accuracy": 0.9929006085192698,
+      "accuracy_ci": [
+        0.986815415821501,
+        0.9979716024340771
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 7,
+      "fn": 0,
+      "threshold": 0.281
+    },
+    {
+      "model": "DTS+HGB",
+      "status": "complete",
+      "auroc": 0.999807696327418,
+      "auroc_ci": [
+        0.9995677507059286,
+        0.9999585118155351
+      ],
+      "auroc_ci_method": "saved_bootstrap",
+      "f1": 0.9919447640966629,
+      "f1_ci": [
+        0.9854748603351955,
+        0.9976076555023924
+      ],
+      "precision": 0.9840182648401826,
+      "precision_ci": [
+        0.9713656387665198,
+        0.9952267303102625
+      ],
+      "recall": 1.0,
+      "recall_ci": [
+        1.0,
+        1.0
+      ],
+      "accuracy": 0.9929006085192698,
+      "accuracy_ci": [
+        0.986815415821501,
+        0.9979716024340771
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 7,
+      "fn": 0,
+      "threshold": 0.002
+    },
+    {
+      "model": "DTS-Net",
+      "status": "complete",
+      "auroc": 0.99173094207897,
+      "auroc_ci": [
+        0.9878796295469869,
+        0.9952604109681769
+      ],
+      "auroc_ci_method": "saved_bootstrap",
+      "f1": 0.9591598599766628,
+      "f1_ci": [
+        0.9450800915331807,
+        0.9718785151856018
+      ],
+      "precision": 0.9647887323943662,
+      "precision_ci": [
+        0.9466019417475728,
+        0.9812206572769953
+      ],
+      "recall": 0.9535962877030162,
+      "recall_ci": [
+        0.932885517648521,
+        0.9722222222222222
+      ],
+      "accuracy": 0.9645030425963489,
+      "accuracy_ci": [
+        0.9523326572008114,
+        0.9756592292089249
+      ],
+      "threshold_metric_ci_method": "multinomial_count_bootstrap",
+      "fp": 15,
+      "fn": 20,
+      "threshold": 0.54
+    },
+    {
+      "model": "SimpleST-GCN",
+      "status": "complete",
+      "auroc": 0.923,
+      "auroc_ci": [
+        0.9045683992279464,
+        0.9414316007720537
+      ],
+      "auroc_ci_method": "hanley_mcneil_approx",
+      "f1": 0.857,
+      "f1_ci": [
+        0.8337600164414668,
+        0.8774649920955081
+      ],
+      "precision": 0.845,
+      "precision_ci": [
+        0.8208939730485592,
+        0.8660847283792008
+      ],
+      "recall": 0.869,
+      "recall_ci": [
+        0.8350296671703823,
+        0.898571036095446
+      ],
+      "accuracy": 0.867,
+      "accuracy_ci": [
+        0.8445222120903052,
+        0.8869080523710157
+      ],
+      "threshold_metric_ci_method": "summary_only_approx_due_legacy_count_mismatch",
+      "fp": 91,
+      "fn": 75,
+      "threshold": 0.5
+    }
+  ],
+  "leave_session_out": [
+    {
+      "session": "Session 1",
+      "n_test": 1581,
+      "falls": 703,
+      "f1": 0.867,
+      "f1_ci": [
+        0.8485219892196636,
+        0.8844356886788425
+      ],
+      "auroc": 0.94,
+      "auroc_ci": [
+        0.9272149122017391,
+        0.9527850877982608
+      ],
+      "recall": 0.946,
+      "recall_ci": [
+        0.9282638309760929,
+        0.9619722428136068
+      ],
+      "inferred_counts": {
+        "tp": 665,
+        "fp": 166,
+        "fn": 38,
+        "tn": 712
+      },
+      "ci_method": "counts_inferred_from_summary"
+    },
+    {
+      "session": "Session 2",
+      "n_test": 1637,
+      "falls": 1090,
+      "f1": 0.964,
+      "f1_ci": [
+        0.9555765595463138,
+        0.9716177861873226
+      ],
+      "auroc": 0.993,
+      "auroc_ci": [
+        0.9894549914417491,
+        0.9965450085582509
+      ],
+      "recall": 0.956,
+      "recall_ci": [
+        0.9434466281827832,
+        0.9677716390423573
+      ],
+      "inferred_counts": {
+        "tp": 1042,
+        "fp": 30,
+        "fn": 48,
+        "tn": 517
+      },
+      "ci_method": "counts_inferred_from_summary"
+    },
+    {
+      "session": "Session 3",
+      "n_test": 2161,
+      "falls": 959,
+      "f1": 0.925,
+      "f1_ci": [
+        0.9122257053291536,
+        0.9366447034972124
+      ],
+      "auroc": 0.984,
+      "auroc_ci": [
+        0.9783346217876452,
+        0.9896653782123548
+      ],
+      "recall": 0.93,
+      "recall_ci": [
+        0.9137749737118822,
+        0.9461141571377524
+      ],
+      "inferred_counts": {
+        "tp": 892,
+        "fp": 78,
+        "fn": 67,
+        "tn": 1124
+      },
+      "ci_method": "counts_inferred_from_summary"
+    },
+    {
+      "session": "Session 4",
+      "n_test": 414,
+      "falls": 214,
+      "f1": 0.858,
+      "f1_ci": [
+        0.8230277185501066,
+        0.8893528183716075
+      ],
+      "auroc": 0.946,
+      "auroc_ci": [
+        0.9236803773469001,
+        0.9683196226530998
+      ],
+      "recall": 0.958,
+      "recall_ci": [
+        0.9292035398230089,
+        0.9821428571428571
+      ],
+      "inferred_counts": {
+        "tp": 205,
+        "fp": 59,
+        "fn": 9,
+        "tn": 141
+      },
+      "ci_method": "counts_inferred_from_summary"
+    }
+  ],
+  "leave_fall_origin": [
+    {
+      "fold": "Bed",
+      "model": "DTS+HGB",
+      "n_test": 1814,
+      "falls": 953,
+      "f1": 0.788400543724513,
+      "f1_ci": [
+        0.7689152370491573,
+        0.8064924779220822
+      ],
+      "auroc": 0.7945969266318358,
+      "auroc_ci": [
+        0.7742087214443494,
+        0.8149851318193222
+      ],
+      "ci_method": "summary_only_approx"
+    },
+    {
+      "fold": "Bed",
+      "model": "DTS+ET",
+      "n_test": 1814,
+      "falls": 953,
+      "f1": 0.7893589184474488,
+      "f1_ci": [
+        0.7700512219054575,
+        0.8075569049777177
+      ],
+      "auroc": 0.8165984792811501,
+      "auroc_ci": [
+        0.7972282720807032,
+        0.8359686864815971
+      ],
+      "ci_method": "summary_only_approx"
+    },
+    {
+      "fold": "Chair",
+      "model": "DTS+HGB",
+      "n_test": 1950,
+      "falls": 992,
+      "f1": 0.9187032418952619,
+      "f1_ci": [
+        0.9054766263569207,
+        0.9298009713377497
+      ],
+      "auroc": 0.9703988904976766,
+      "auroc_ci": [
+        0.9627733252115027,
+        0.9780244557838504
+      ],
+      "ci_method": "summary_only_approx"
+    },
+    {
+      "fold": "Chair",
+      "model": "DTS+ET",
+      "n_test": 1950,
+      "falls": 992,
+      "f1": 0.9224652087475149,
+      "f1_ci": [
+        0.9098527244267458,
+        0.933613869323755
+      ],
+      "auroc": 0.9759006288302243,
+      "auroc_ci": [
+        0.9690269929857271,
+        0.9827742646747215
+      ],
+      "ci_method": "summary_only_approx"
+    },
+    {
+      "fold": "Stand",
+      "model": "DTS+HGB",
+      "n_test": 2029,
+      "falls": 1021,
+      "f1": 0.9671314741035857,
+      "f1_ci": [
+        0.9582785377264037,
+        0.9739141779314814
+      ],
+      "auroc": 0.995568264850831,
+      "auroc_ci": [
+        0.9926761942141078,
+        0.9984603354875543
+      ],
+      "ci_method": "summary_only_approx"
+    },
+    {
+      "fold": "Stand",
+      "model": "DTS+ET",
+      "n_test": 2029,
+      "falls": 1021,
+      "f1": 0.9657603222557906,
+      "f1_ci": [
+        0.9571845334078445,
+        0.9730404931404727
+      ],
+      "auroc": 0.9961925555400091,
+      "auroc_ci": [
+        0.9935123243183663,
+        0.9988727867616518
+      ],
+      "ci_method": "summary_only_approx"
+    }
+  ],
+  "urfd_zero_shot": {
+    "dataset": "URFD",
+    "n_test": 70,
+    "falls": 30,
+    "nonfalls": 40,
+    "auroc": 0.92,
+    "auroc_ci": [
+      0.8482735363901929,
+      0.9917264636098072
+    ],
+    "f1": 0.6741573033707865,
+    "f1_ci": [
+      0.55,
+      0.7789473684210526
+    ],
+    "precision": 0.5084745762711864,
+    "precision_ci": [
+      0.3793103448275862,
+      0.6379310344827587
+    ],
+    "recall": 1.0,
+    "recall_ci": [
+      1.0,
+      1.0
+    ],
+    "fp": 29,
+    "fn": 0,
+    "ci_method": "counts_and_hanley_mcneil_auc"
+  },
+  "terminology": "controlled temporal-order benchmark",
+  "notes": [
+    "Confidence intervals for rows with saved bootstrap scores use those intervals for AUROC.",
+    "Rows without raw score vectors use Hanley-McNeil AUROC approximations and count/bootstrap intervals for threshold metrics.",
+    "FP and FN are deterministic counts and are intentionally reported without confidence intervals."
+  ]
+}

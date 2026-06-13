@@ -1,0 +1,303 @@
+\newcommand{\LSTMauroc}{0.9558}
+\newcommand{\LSTMaurocCI}{[0.9446, 0.9662]}
+\newcommand{\LSTMf}{0.905}
+\newcommand{\LSTMfCI}{[0.886, 0.920]}
+\newcommand{\LSTMprec}{0.893}
+\newcommand{\LSTMprecCI}{[0.866, 0.917]}
+\newcommand{\LSTMrec}{0.916}
+\newcommand{\LSTMrecCI}{[0.894, 0.937]}
+\newcommand{\LSTMacc}{0.900}
+\newcommand{\LSTMaccCI}{[0.883, 0.917]}
+\newcommand{\LSTMfp}{63}
+\newcommand{\LSTMfn}{48}
+\newcommand{\GRUauroc}{0.9712}
+\newcommand{\GRUaurocCI}{[0.9623, 0.9795]}
+\newcommand{\GRUf}{0.920}
+\newcommand{\GRUfCI}{[0.903, 0.937]}
+\newcommand{\GRUprec}{0.913}
+\newcommand{\GRUprecCI}{[0.890, 0.936]}
+\newcommand{\GRUrec}{0.927}
+\newcommand{\GRUrecCI}{[0.905, 0.946]}
+\newcommand{\GRUacc}{0.917}
+\newcommand{\GRUaccCI}{[0.900, 0.934]}
+\newcommand{\GRUfp}{51}
+\newcommand{\GRUfn}{42}
+\newcommand{\Transformerauroc}{0.9810}
+\newcommand{\TransformeraurocCI}{[0.9749, 0.9872]}
+\newcommand{\Transformerf}{0.940}
+\newcommand{\TransformerfCI}{[0.926, 0.954]}
+\newcommand{\Transformerprec}{0.947}
+\newcommand{\TransformerprecCI}{[0.929, 0.964]}
+\newcommand{\Transformerrec}{0.934}
+\newcommand{\TransformerrecCI}{[0.913, 0.953]}
+\newcommand{\Transformeracc}{0.939}
+\newcommand{\TransformeraccCI}{[0.925, 0.952]}
+\newcommand{\Transformerfp}{30}
+\newcommand{\Transformerfn}{38}
+\newcommand{\SimpleSTGCNauroc}{0.9185}
+\newcommand{\SimpleSTGCNaurocCI}{[0.9016, 0.9340]}
+\newcommand{\SimpleSTGCNf}{0.849}
+\newcommand{\SimpleSTGCNfCI}{[0.826, 0.870]}
+\newcommand{\SimpleSTGCNprec}{0.851}
+\newcommand{\SimpleSTGCNprecCI}{[0.822, 0.879]}
+\newcommand{\SimpleSTGCNrec}{0.847}
+\newcommand{\SimpleSTGCNrecCI}{[0.816, 0.877]}
+\newcommand{\SimpleSTGCNacc}{0.845}
+\newcommand{\SimpleSTGCNaccCI}{[0.823, 0.865]}
+\newcommand{\SimpleSTGCNfp}{85}
+\newcommand{\SimpleSTGCNfn}{88}
+\newcommand{\MiniROCKETauroc}{0.9760}
+\newcommand{\MiniROCKETaurocCI}{[0.9672, 0.9839]}
+\newcommand{\MiniROCKETf}{0.936}
+\newcommand{\MiniROCKETfCI}{[0.921, 0.950]}
+\newcommand{\MiniROCKETprec}{0.931}
+\newcommand{\MiniROCKETprecCI}{[0.910, 0.952]}
+\newcommand{\MiniROCKETrec}{0.941}
+\newcommand{\MiniROCKETrecCI}{[0.920, 0.960]}
+\newcommand{\MiniROCKETacc}{0.934}
+\newcommand{\MiniROCKETaccCI}{[0.918, 0.948]}
+\newcommand{\MiniROCKETfp}{40}
+\newcommand{\MiniROCKETfn}{34}
+\newcommand{\DTSLRauroc}{0.9433}
+\newcommand{\DTSLRaurocCI}{[0.9297, 0.9559]}
+\newcommand{\DTSLRf}{0.890}
+\newcommand{\DTSLRfCI}{[0.871, 0.909]}
+\newcommand{\DTSLRprec}{0.883}
+\newcommand{\DTSLRprecCI}{[0.858, 0.906]}
+\newcommand{\DTSLRrec}{0.897}
+\newcommand{\DTSLRrecCI}{[0.874, 0.922]}
+\newcommand{\DTSLRacc}{0.886}
+\newcommand{\DTSLRaccCI}{[0.867, 0.905]}
+\newcommand{\DTSLRfp}{68}
+\newcommand{\DTSLRfn}{59}
+\newcommand{\DTSETauroc}{0.9801}
+\newcommand{\DTSETaurocCI}{[0.9734, 0.9861]}
+\newcommand{\DTSETf}{0.936}
+\newcommand{\DTSETfCI}{[0.921, 0.950]}
+\newcommand{\DTSETprec}{0.907}
+\newcommand{\DTSETprecCI}{[0.883, 0.931]}
+\newcommand{\DTSETrec}{0.967}
+\newcommand{\DTSETrecCI}{[0.952, 0.980]}
+\newcommand{\DTSETacc}{0.932}
+\newcommand{\DTSETaccCI}{[0.917, 0.946]}
+\newcommand{\DTSETfp}{57}
+\newcommand{\DTSETfn}{19}
+\newcommand{\DTSRFauroc}{0.9785}
+\newcommand{\DTSRFaurocCI}{[0.9711, 0.9849]}
+\newcommand{\DTSRFf}{0.927}
+\newcommand{\DTSRFfCI}{[0.912, 0.941]}
+\newcommand{\DTSRFprec}{0.893}
+\newcommand{\DTSRFprecCI}{[0.870, 0.917]}
+\newcommand{\DTSRFrec}{0.963}
+\newcommand{\DTSRFrecCI}{[0.946, 0.978]}
+\newcommand{\DTSRFacc}{0.922}
+\newcommand{\DTSRFaccCI}{[0.906, 0.937]}
+\newcommand{\DTSRFfp}{66}
+\newcommand{\DTSRFfn}{21}
+\newcommand{\DTSHGBauroc}{0.9895}
+\newcommand{\DTSHGBaurocCI}{[0.9851, 0.9935]}
+\newcommand{\DTSHGBf}{0.951}
+\newcommand{\DTSHGBfCI}{[0.938, 0.963]}
+\newcommand{\DTSHGBprec}{0.934}
+\newcommand{\DTSHGBprecCI}{[0.913, 0.954]}
+\newcommand{\DTSHGBrec}{0.969}
+\newcommand{\DTSHGBrecCI}{[0.953, 0.983]}
+\newcommand{\DTSHGBacc}{0.949}
+\newcommand{\DTSHGBaccCI}{[0.935, 0.961]}
+\newcommand{\DTSHGBfp}{39}
+\newcommand{\DTSHGBfn}{18}
+\newcommand{\DTSNetauroc}{0.9775}
+\newcommand{\DTSNetaurocCI}{[0.9699, 0.9849]}
+\newcommand{\DTSNetf}{0.928}
+\newcommand{\DTSNetfCI}{[0.911, 0.943]}
+\newcommand{\DTSNetprec}{0.927}
+\newcommand{\DTSNetprecCI}{[0.907, 0.949]}
+\newcommand{\DTSNetrec}{0.929}
+\newcommand{\DTSNetrecCI}{[0.907, 0.949]}
+\newcommand{\DTSNetacc}{0.926}
+\newcommand{\DTSNetaccCI}{[0.909, 0.941]}
+\newcommand{\DTSNetfp}{42}
+\newcommand{\DTSNetfn}{41}
+\newcommand{\bestmodel}{DTSHGB}
+\newcommand{\hgbminusrocketauroc}{0.0135}
+\newcommand{\hgbminusgcnauroc}{0.0710}
+\newcommand{\hgbminusgcnrec}{-0.002}
+\newcommand{\hgberr}{0.051}
+\newcommand{\gapfactor}{5.6}
+\newcommand{\lstmparams}{216{,}193}
+\newcommand{\gcnparams}{244{,}161}
+\newcommand{\dtsnetparams}{10{,}506}
+\newcommand{\nstar}{17{,}599}
+\newcommand{\nstarover}{4.9}
+\newcommand{\xone}{-0.498}
+\newcommand{\xtwo}{0.308}
+\newcommand{\pmissf}{0.202}
+\newcommand{\pfalsen}{0.369}
+\newcommand{\epsqda}{0.286}
+\newcommand{\muf}{0.171}
+\newcommand{\mun}{0.381}
+\newcommand{\sigf}{0.165}
+\newcommand{\sign}{0.220}
+\newcommand{\lsoOneauroc}{0.9382}
+\newcommand{\lsoOneaurocCI}{[0.9259, 0.9492]}
+\newcommand{\lsoOnef}{0.866}
+\newcommand{\lsoOnefCI}{[0.847, 0.884]}
+\newcommand{\lsoOnerec}{0.944}
+\newcommand{\lsoOnerecCI}{[0.939, 0.969]}
+\newcommand{\lsoOnen}{1{,}513}
+\newcommand{\lsoOnefalls}{679}
+\newcommand{\lsoTwoauroc}{0.9926}
+\newcommand{\lsoTwoaurocCI}{[0.9898, 0.9951]}
+\newcommand{\lsoTwof}{0.966}
+\newcommand{\lsoTwofCI}{[0.958, 0.973]}
+\newcommand{\lsoTworec}{0.954}
+\newcommand{\lsoTworecCI}{[0.903, 0.935]}
+\newcommand{\lsoTwon}{1{,}593}
+\newcommand{\lsoTwofalls}{1{,}072}
+\newcommand{\lsoThreeauroc}{0.9840}
+\newcommand{\lsoThreeaurocCI}{[0.9797, 0.9879]}
+\newcommand{\lsoThreef}{0.925}
+\newcommand{\lsoThreefCI}{[0.912, 0.937]}
+\newcommand{\lsoThreerec}{0.925}
+\newcommand{\lsoThreerecCI}{[0.941, 0.967]}
+\newcommand{\lsoThreen}{2{,}064}
+\newcommand{\lsoThreefalls}{903}
+\newcommand{\lsoFourauroc}{0.9448}
+\newcommand{\lsoFouraurocCI}{[0.9227, 0.9645]}
+\newcommand{\lsoFourf}{0.868}
+\newcommand{\lsoFourfCI}{[0.836, 0.900]}
+\newcommand{\lsoFourrec}{0.953}
+\newcommand{\lsoFourrecCI}{[0.934, 0.986]}
+\newcommand{\lsoFourn}{402}
+\newcommand{\lsoFourfalls}{213}
+\newcommand{\lsomeanauroc}{0.9649}
+\newcommand{\lsomeanf}{0.906}
+\newcommand{\lsorangelow}{0.9382}
+\newcommand{\lsorangehigh}{0.9926}
+\newcommand{\lfoBedauroc}{0.7123}
+\newcommand{\lfoBedaurocCI}{[0.6868, 0.7357]}
+\newcommand{\lfoBedf}{0.768}
+\newcommand{\lfoBedfCI}{[0.749, 0.788]}
+\newcommand{\lfoBedn}{1{,}747}
+\newcommand{\lfoBedfalls}{922}
+\newcommand{\lfoChairauroc}{0.9844}
+\newcommand{\lfoChairaurocCI}{[0.9799, 0.9883]}
+\newcommand{\lfoChairf}{0.934}
+\newcommand{\lfoChairfCI}{[0.923, 0.944]}
+\newcommand{\lfoChairn}{1{,}878}
+\newcommand{\lfoChairfalls}{961}
+\newcommand{\lfoStandauroc}{0.9916}
+\newcommand{\lfoStandaurocCI}{[0.9886, 0.9945]}
+\newcommand{\lfoStandf}{0.937}
+\newcommand{\lfoStandfCI}{[0.926, 0.949]}
+\newcommand{\lfoStandn}{1{,}947}
+\newcommand{\lfoStandfalls}{984}
+\newcommand{\lfomeanauroc}{0.8961}
+\newcommand{\lfomeanf}{0.880}
+\newcommand{\iidreff}{0.950}
+\newcommand{\transfergap}{0.071}
+\newcommand{\urfdauroc}{0.9200}
+\newcommand{\urfdaurocCI}{[0.8483, 0.9917]}
+\newcommand{\urfdrec}{1.000}
+\newcommand{\urfdrecCI}{[1.000, 1.000]}
+\newcommand{\urfdprec}{0.508}
+\newcommand{\urfdprecCI}{[0.379, 0.638]}
+\newcommand{\urfdf}{0.674}
+\newcommand{\urfdfCI}{[0.550, 0.779]}
+\newcommand{\urfdfp}{29}
+\newcommand{\urfdfn}{0}
+\newcommand{\abFullf}{0.951}
+\newcommand{\abFullauroc}{0.9895}
+\newcommand{\abBBoxWf}{0.942}
+\newcommand{\abBBoxWauroc}{0.9882}
+\newcommand{\abBBoxWdf}{-0.009}
+\newcommand{\abBBoxWda}{-0.0013}
+\newcommand{\abHipYf}{0.939}
+\newcommand{\abHipYauroc}{0.9855}
+\newcommand{\abHipYdf}{-0.012}
+\newcommand{\abHipYda}{-0.0039}
+\newcommand{\abTorsoAngf}{0.945}
+\newcommand{\abTorsoAngauroc}{0.9892}
+\newcommand{\abTorsoAngdf}{-0.006}
+\newcommand{\abTorsoAngda}{-0.0003}
+\newcommand{\abHipSpdf}{0.949}
+\newcommand{\abHipSpdauroc}{0.9897}
+\newcommand{\abHipSpddf}{-0.002}
+\newcommand{\abHipSpdda}{+0.0002}
+\newcommand{\abCtrSpdf}{0.949}
+\newcommand{\abCtrSpdauroc}{0.9904}
+\newcommand{\abCtrSpddf}{-0.002}
+\newcommand{\abCtrSpdda}{+0.0009}
+\newcommand{\abHipAccf}{0.947}
+\newcommand{\abHipAccauroc}{0.9894}
+\newcommand{\abHipAccdf}{-0.004}
+\newcommand{\abHipAccda}{-0.0001}
+\newcommand{\abShldrYf}{0.943}
+\newcommand{\abShldrYauroc}{0.9882}
+\newcommand{\abShldrYdf}{-0.008}
+\newcommand{\abShldrYda}{-0.0012}
+\newcommand{\abHeadYf}{0.951}
+\newcommand{\abHeadYauroc}{0.9903}
+\newcommand{\abHeadYdf}{-0.001}
+\newcommand{\abHeadYda}{+0.0008}
+\newcommand{\abStaticf}{0.939}
+\newcommand{\abStaticauroc}{0.9872}
+\newcommand{\abStaticdf}{-0.012}
+\newcommand{\abStaticda}{-0.0023}
+\newcommand{\synthcv}{1.000}
+\newcommand{\synthdtsathundred}{1.000}
+\newcommand{\synthalphamin}{0.996}
+\newcommand{\synthbof}{0.500}
+\newcommand{\synthdropfour}{1.000}
+\newcommand{\synthkeeptwo}{1.000}
+\newcommand{\synthalphaonly}{1.000}
+\newcommand{\synthdropone}{1.000}
+\newcommand{\synthdroptwo}{1.000}
+\newcommand{\attnr}{0.650}
+\newcommand{\attnp}{0.081}
+\newcommand{\attntopfam}{Head-Y}
+\newcommand{\attntopw}{0.148}
+\newcommand{\attntopei}{0.187}
+\newcommand{\attnsecfam}{Shldr-Y}
+\newcommand{\attnsecw}{0.146}
+\newcommand{\attnsecei}{0.169}
+\newcommand{\selLR}{C=0.05}
+\newcommand{\selET}{100 trees, max\_features=0.25}
+\newcommand{\selRF}{600 trees, max\_features=0.25}
+\newcommand{\selHGB}{600 iterations, lr=0.1, $\lambda_2$=0.1}
+\newcommand{\FullSTGCNacc}{0.903}
+\newcommand{\FullSTGCNaccCI}{[0.885, 0.920]}
+\newcommand{\FullSTGCNauroc}{0.9652}
+\newcommand{\FullSTGCNaurocCI}{[0.9553, 0.9740]}
+\newcommand{\FullSTGCNf}{0.907}
+\newcommand{\FullSTGCNfCI}{[0.889, 0.924]}
+\newcommand{\FullSTGCNfn}{46}
+\newcommand{\FullSTGCNfp}{62}
+\newcommand{\FullSTGCNprec}{0.895}
+\newcommand{\FullSTGCNprecCI}{[0.868, 0.919]}
+\newcommand{\FullSTGCNrec}{0.920}
+\newcommand{\FullSTGCNrecCI}{[0.896, 0.941]}
+\newcommand{\fullgcnparams}{1{,}107{,}905}
+\newcommand{\fvambiguous}{0}
+\newcommand{\fvdupsremoved}{221}
+\newcommand{\fvparsed}{5{,}793}
+\newcommand{\fvunique}{5{,}572}
+\newcommand{\hgbminusdtsnetauroc}{0.0120}
+\newcommand{\hgbminusdtsnetaurocCI}{[0.0069, 0.0175]}
+\newcommand{\hgbminusfullgcnauroc}{0.0242}
+\newcommand{\hgbminusfullgcnaurocCI}{[0.0166, 0.0338]}
+\newcommand{\hgbminusgcnaurocCI}{[0.0568, 0.0879]}
+\newcommand{\hgbminusgruauroc}{0.0183}
+\newcommand{\hgbminusgruaurocCI}{[0.0105, 0.0266]}
+\newcommand{\hgbminusrocketaurocCI}{[0.0058, 0.0220]}
+\newcommand{\hgbminustransauroc}{0.0085}
+\newcommand{\hgbminustransaurocCI}{[0.0024, 0.0151]}
+\newcommand{\testfalls}{574}
+\newcommand{\testn}{1{,}115}
+\newcommand{\testnonfalls}{541}
+\newcommand{\trainfalls}{1{,}834}
+\newcommand{\trainn}{3{,}565}
+\newcommand{\trainnonfalls}{1{,}731}
+\newcommand{\valfalls}{459}
+\newcommand{\valn}{892}
+\newcommand{\valnonfalls}{433}

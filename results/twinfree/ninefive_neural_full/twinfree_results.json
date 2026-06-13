@@ -1,0 +1,322 @@
+{
+  "protocol": "strict_unique_feature_group_twinfree",
+  "status": "complete",
+  "seed": 20260610,
+  "data_dir": "/Users/rudrachopra/Documents/Codex/2026-06-10/files-mentioned-by-the-user-paper/work/revised_paper/data/fallvision_extracted",
+  "min_frames": 10,
+  "dedup": {
+    "n_input_clips": 5793,
+    "n_feature_groups": 5572,
+    "n_kept_representatives": 5572,
+    "n_ambiguous_groups_dropped": 0,
+    "n_clips_in_ambiguous_groups_dropped": 0,
+    "n_duplicate_members_removed": 221
+  },
+  "split": {
+    "train": {
+      "n": 3565,
+      "falls": 1834,
+      "nonfalls": 1731
+    },
+    "val": {
+      "n": 892,
+      "falls": 459,
+      "nonfalls": 433
+    },
+    "test": {
+      "n": 1115,
+      "falls": 574,
+      "nonfalls": 541
+    }
+  },
+  "tau_star": 0.3,
+  "models": {
+    "LSTM": {
+      "threshold": 0.36000000000000004,
+      "auroc": 0.9558438045431418,
+      "auprc": 0.9565536369196378,
+      "f1": 0.9045571797076526,
+      "precision": 0.8930390492359932,
+      "recall": 0.9163763066202091,
+      "accuracy": 0.9004484304932735,
+      "tp": 526,
+      "fp": 63,
+      "fn": 48,
+      "tn": 478,
+      "threshold_source": "validation_f1_grid",
+      "ci95": {
+        "auroc": [
+          0.9446295992431458,
+          0.9662301114899711
+        ],
+        "auprc": [
+          0.9422792912006304,
+          0.9682825186171302
+        ],
+        "f1": [
+          0.8859025017397767,
+          0.9201050465367754
+        ],
+        "precision": [
+          0.8660994793397585,
+          0.9165474848527546
+        ],
+        "recall": [
+          0.8939915943891209,
+          0.9365684780323733
+        ],
+        "accuracy": [
+          0.8825112107623319,
+          0.9166143497757848
+        ]
+      }
+    },
+    "GRU": {
+      "threshold": 0.18000000000000002,
+      "auroc": 0.971191560344439,
+      "auprc": 0.9730092567903607,
+      "f1": 0.9196197061365601,
+      "precision": 0.9125214408233276,
+      "recall": 0.926829268292683,
+      "accuracy": 0.9165919282511211,
+      "tp": 532,
+      "fp": 51,
+      "fn": 42,
+      "tn": 490,
+      "threshold_source": "validation_f1_grid",
+      "ci95": {
+        "auroc": [
+          0.9622825724072466,
+          0.9794965003459694
+        ],
+        "auprc": [
+          0.96372093269482,
+          0.9816759619066059
+        ],
+        "f1": [
+          0.9026842024637405,
+          0.9365807089972851
+        ],
+        "precision": [
+          0.8901698573573574,
+          0.9355428722920769
+        ],
+        "recall": [
+          0.9048314866401009,
+          0.9458054530072297
+        ],
+        "accuracy": [
+          0.9004260089686098,
+          0.9336547085201794
+        ]
+      }
+    },
+    "Transformer": {
+      "threshold": 0.4,
+      "auroc": 0.9810036904171524,
+      "auprc": 0.982638410375506,
+      "f1": 0.9403508771929825,
+      "precision": 0.9469964664310954,
+      "recall": 0.9337979094076655,
+      "accuracy": 0.9390134529147982,
+      "tp": 536,
+      "fp": 30,
+      "fn": 38,
+      "tn": 511,
+      "threshold_source": "validation_f1_grid",
+      "ci95": {
+        "auroc": [
+          0.9748508548066722,
+          0.9871611908659728
+        ],
+        "auprc": [
+          0.976035712308598,
+          0.9883998672180528
+        ],
+        "f1": [
+          0.9256938227394808,
+          0.9539779082510762
+        ],
+        "precision": [
+          0.928558249868213,
+          0.9638341793938865
+        ],
+        "recall": [
+          0.9128167808219178,
+          0.953489372773486
+        ],
+        "accuracy": [
+          0.9246636771300448,
+          0.9524663677130045
+        ]
+      }
+    },
+    "DTS-Net": {
+      "threshold": 0.42000000000000004,
+      "auroc": 0.9774903875260036,
+      "auprc": 0.9743796253544902,
+      "f1": 0.927763272410792,
+      "precision": 0.9269565217391305,
+      "recall": 0.9285714285714286,
+      "accuracy": 0.9255605381165919,
+      "tp": 533,
+      "fp": 42,
+      "fn": 41,
+      "tn": 499,
+      "threshold_source": "validation_f1_grid",
+      "ci95": {
+        "auroc": [
+          0.9699099289127924,
+          0.9848529677274277
+        ],
+        "auprc": [
+          0.9624977556223682,
+          0.9851342568324564
+        ],
+        "f1": [
+          0.9106801645949909,
+          0.9432159741300133
+        ],
+        "precision": [
+          0.9066901408450704,
+          0.9491235504014273
+        ],
+        "recall": [
+          0.9066186286708748,
+          0.9493012899262899
+        ],
+        "accuracy": [
+          0.9094170403587444,
+          0.940829596412556
+        ]
+      }
+    },
+    "CompactST-GCN": {
+      "threshold": 0.78,
+      "auroc": 0.918456594124959,
+      "auprc": 0.9123180437366875,
+      "f1": 0.8489082969432314,
+      "precision": 0.851138353765324,
+      "recall": 0.8466898954703833,
+      "accuracy": 0.8448430493273542,
+      "tp": 486,
+      "fp": 85,
+      "fn": 88,
+      "tn": 456,
+      "threshold_source": "validation_f1_grid",
+      "ci95": {
+        "auroc": [
+          0.9016157561269122,
+          0.9339546006622091
+        ],
+        "auprc": [
+          0.8875101217410069,
+          0.9357450403323209
+        ],
+        "f1": [
+          0.8263898746520685,
+          0.8695671193274753
+        ],
+        "precision": [
+          0.8218664233370115,
+          0.879253166783955
+        ],
+        "recall": [
+          0.8164265073414558,
+          0.8769360568383658
+        ],
+        "accuracy": [
+          0.8232959641255605,
+          0.8645739910313901
+        ]
+      }
+    },
+    "FullST-GCN-COCO": {
+      "threshold": 0.59,
+      "auroc": 0.9652469616853548,
+      "auprc": 0.9656559903519294,
+      "f1": 0.9072164948453608,
+      "precision": 0.8949152542372881,
+      "recall": 0.9198606271777003,
+      "accuracy": 0.9031390134529148,
+      "tp": 528,
+      "fp": 62,
+      "fn": 46,
+      "tn": 479,
+      "threshold_source": "validation_f1_grid",
+      "ci95": {
+        "auroc": [
+          0.9553499225046027,
+          0.9739917631337577
+        ],
+        "auprc": [
+          0.9530791599472674,
+          0.9759837637988839
+        ],
+        "f1": [
+          0.8890796165884194,
+          0.924416022059956
+        ],
+        "precision": [
+          0.867853835978836,
+          0.9191919191919192
+        ],
+        "recall": [
+          0.8963059533070192,
+          0.9407564454414824
+        ],
+        "accuracy": [
+          0.885201793721973,
+          0.9201793721973094
+        ]
+      }
+    }
+  },
+  "selected_configs": {
+    "LSTM": {
+      "epochs": 20,
+      "lr": 0.001,
+      "batch_size": 64,
+      "best_val_auroc": 0.9570911762190121
+    },
+    "GRU": {
+      "epochs": 20,
+      "lr": 0.001,
+      "batch_size": 64,
+      "best_val_auroc": 0.9742889200843282
+    },
+    "Transformer": {
+      "epochs": 20,
+      "lr": 0.001,
+      "batch_size": 64,
+      "best_val_auroc": 0.9844626585558524
+    },
+    "DTS-Net": {
+      "epochs": 40,
+      "lr": 0.003,
+      "batch_size": 64,
+      "best_val_auroc": 0.9740549542886182
+    },
+    "CompactST-GCN": {
+      "epochs": 20,
+      "lr": 0.001,
+      "batch_size": 64,
+      "best_val_auroc": 0.9294228340553568
+    },
+    "FullST-GCN-COCO": {
+      "epochs": 24,
+      "lr": 0.001,
+      "batch_size": 48,
+      "best_val_auroc": 0.9646082708166663
+    }
+  },
+  "matched_operating_points": {},
+  "artifacts": {
+    "split_manifest": "split_manifest_twinfree.csv",
+    "dedup_audit": "dedup_audit.csv",
+    "parse_failures": "parse_failures.csv",
+    "score_vectors": "score_vectors_twinfree.npz"
+  },
+  "command": "python work/ninefive/run_twinfree_benchmark.py --models all",
+  "elapsed_s": 3549.2
+}

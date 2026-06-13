@@ -1,0 +1,117 @@
+{"construction": "fall", "sweep": "headline", "params": {}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.4}
+{"construction": "fall", "sweep": "headline", "params": {}, "seed": 1, "auroc": 1.0, "elapsed_s": 10.58}
+{"construction": "fall", "sweep": "headline", "params": {}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.22}
+{"construction": "fall", "sweep": "headline", "params": {}, "seed": 3, "auroc": 1.0, "elapsed_s": 9.89}
+{"construction": "fall", "sweep": "headline", "params": {}, "seed": 4, "auroc": 1.0, "elapsed_s": 9.28}
+{"construction": "sit2stand", "sweep": "headline", "params": {}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.91}
+{"construction": "sit2stand", "sweep": "headline", "params": {}, "seed": 1, "auroc": 1.0, "elapsed_s": 17.02}
+{"construction": "sit2stand", "sweep": "headline", "params": {}, "seed": 2, "auroc": 1.0, "elapsed_s": 12.98}
+{"construction": "sit2stand", "sweep": "headline", "params": {}, "seed": 3, "auroc": 1.0, "elapsed_s": 9.65}
+{"construction": "sit2stand", "sweep": "headline", "params": {}, "seed": 4, "auroc": 1.0, "elapsed_s": 9.57}
+{"construction": "burst", "sweep": "headline", "params": {}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.75}
+{"construction": "burst", "sweep": "headline", "params": {}, "seed": 1, "auroc": 1.0, "elapsed_s": 10.83}
+{"construction": "burst", "sweep": "headline", "params": {}, "seed": 2, "auroc": 1.0, "elapsed_s": 10.81}
+{"construction": "burst", "sweep": "headline", "params": {}, "seed": 3, "auroc": 1.0, "elapsed_s": 11.53}
+{"construction": "burst", "sweep": "headline", "params": {}, "seed": 4, "auroc": 1.0, "elapsed_s": 11.59}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 50}, "seed": 0, "auroc": 1.0, "elapsed_s": 1.4}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 100}, "seed": 0, "auroc": 1.0, "elapsed_s": 1.7}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 250}, "seed": 0, "auroc": 1.0, "elapsed_s": 4.11}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 500}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.24}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 1000}, "seed": 0, "auroc": 1.0, "elapsed_s": 11.96}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 2000}, "seed": 0, "auroc": 1.0, "elapsed_s": 17.34}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 1.5}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.49}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 2.0}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.68}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 3.0}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.65}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 5.0}, "seed": 0, "auroc": 1.0, "elapsed_s": 11.59}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 10.0}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.54}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.15}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.97}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.25}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.14}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.35}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.07}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.45}, "seed": 0, "auroc": 1.0, "elapsed_s": 14.12}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.08}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.38}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.12}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.26}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.18}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.01}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.25}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.82}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 30}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.47}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 60}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.3}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 120}, "seed": 0, "auroc": 1.0, "elapsed_s": 11.26}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 240}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.37}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 0}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.25}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 2}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.17}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 4}, "seed": 0, "auroc": 1.0, "elapsed_s": 11.24}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 8}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.14}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "full"}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.1}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "no_asym"}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.79}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "no_diff"}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.29}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "stats_only"}, "seed": 0, "auroc": 1.0, "elapsed_s": 8.93}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.3, "tau_mode": "fixed"}, "seed": 0, "auroc": 1.0, "elapsed_s": 10.39}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.5, "tau_mode": "fixed"}, "seed": 0, "auroc": 1.0, "elapsed_s": 9.87}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.3, "tau_mode": "data_driven"}, "seed": 0, "auroc": 1.0, "elapsed_s": 11.11}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 50}, "seed": 1, "auroc": 1.0, "elapsed_s": 1.29}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 100}, "seed": 1, "auroc": 0.9949999999999999, "elapsed_s": 1.33}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 250}, "seed": 1, "auroc": 1.0, "elapsed_s": 5.22}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 500}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.29}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 1000}, "seed": 1, "auroc": 1.0, "elapsed_s": 12.01}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 2000}, "seed": 1, "auroc": 1.0, "elapsed_s": 19.32}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 1.5}, "seed": 1, "auroc": 1.0, "elapsed_s": 13.43}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 2.0}, "seed": 1, "auroc": 1.0, "elapsed_s": 13.75}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 3.0}, "seed": 1, "auroc": 1.0, "elapsed_s": 10.63}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 5.0}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.91}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 10.0}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.89}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.15}, "seed": 1, "auroc": 1.0, "elapsed_s": 10.47}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.25}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.88}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.35}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.59}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.45}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.93}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.08}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.82}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.12}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.47}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.18}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.6}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.25}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.46}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 30}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.13}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 60}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.21}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 120}, "seed": 1, "auroc": 1.0, "elapsed_s": 15.88}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 240}, "seed": 1, "auroc": 1.0, "elapsed_s": 11.19}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 0}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.63}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 2}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.77}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 4}, "seed": 1, "auroc": 1.0, "elapsed_s": 8.39}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 8}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.7}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "full"}, "seed": 1, "auroc": 1.0, "elapsed_s": 10.32}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "no_asym"}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.81}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "no_diff"}, "seed": 1, "auroc": 1.0, "elapsed_s": 11.07}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "stats_only"}, "seed": 1, "auroc": 1.0, "elapsed_s": 7.99}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.3, "tau_mode": "fixed"}, "seed": 1, "auroc": 1.0, "elapsed_s": 8.23}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.5, "tau_mode": "fixed"}, "seed": 1, "auroc": 1.0, "elapsed_s": 8.08}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.3, "tau_mode": "data_driven"}, "seed": 1, "auroc": 1.0, "elapsed_s": 9.06}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 50}, "seed": 2, "auroc": 1.0, "elapsed_s": 1.03}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 100}, "seed": 2, "auroc": 1.0, "elapsed_s": 1.1}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 250}, "seed": 2, "auroc": 1.0, "elapsed_s": 3.42}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 500}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.49}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 1000}, "seed": 2, "auroc": 1.0, "elapsed_s": 10.18}
+{"construction": "fall", "sweep": "training_size", "params": {"n_clips": 2000}, "seed": 2, "auroc": 1.0, "elapsed_s": 15.59}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 1.5}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.87}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 2.0}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.97}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 3.0}, "seed": 2, "auroc": 1.0, "elapsed_s": 9.49}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 5.0}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.82}
+{"construction": "fall", "sweep": "snr", "params": {"snr": 10.0}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.97}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.15}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.9}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.25}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.11}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.35}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.74}
+{"construction": "fall", "sweep": "onset_p1", "params": {"onset_p1": 0.45}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.84}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.08}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.22}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.12}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.98}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.18}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.76}
+{"construction": "fall", "sweep": "event_dur", "params": {"event_dur": 0.25}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.94}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 30}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.54}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 60}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.71}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 120}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.87}
+{"construction": "fall", "sweep": "seq_len", "params": {"T": 240}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.89}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 0}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.98}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 2}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.76}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 4}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.75}
+{"construction": "fall", "sweep": "distractors", "params": {"n_distractor": 8}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.01}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "full"}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.99}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "no_asym"}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.62}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "no_diff"}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.31}
+{"construction": "fall", "sweep": "operator_bank", "params": {"mode": "stats_only"}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.24}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.3, "tau_mode": "fixed"}, "seed": 2, "auroc": 1.0, "elapsed_s": 8.06}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.5, "tau_mode": "fixed"}, "seed": 2, "auroc": 1.0, "elapsed_s": 7.85}
+{"construction": "fall", "sweep": "tau_select", "params": {"tau": 0.3, "tau_mode": "data_driven"}, "seed": 2, "auroc": 1.0, "elapsed_s": 9.11}

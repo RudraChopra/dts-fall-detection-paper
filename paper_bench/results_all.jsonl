@@ -1,0 +1,636 @@
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.998}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.99944}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.994}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.99994}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.993}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.995}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.994}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "tasks", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "tasks", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.995}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.99998}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.998}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.999536}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.998}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.998772}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.999348}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.999}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 0.5}
+{"sweep": "tasks", "gen": "sit2stand", "model": "minirocket", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "sit2stand", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.4, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.9986160000000001}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.996516}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.9983559999999999}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.999972}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.973824}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.9998159999999999}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.99996}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.999976}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.999748}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 0.9993439999999999}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.999996}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.5, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 0.5}
+{"sweep": "tasks", "gen": "burst", "model": "minirocket", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 1.0}
+{"sweep": "tasks", "gen": "burst", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.55, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 50, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.998}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 50, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 50, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 50, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 50, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 50, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.995}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 50, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 50, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 50, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.9977239999999999}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 50, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 50, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.998}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 50, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 50, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 50, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.998684}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 50, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 50, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.997}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 50, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 50, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 50, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.991884}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 50, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 50, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.987}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 50, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 50, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 50, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999316}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 50, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.998}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.99944}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.994}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.99994}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.993}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.995}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.994}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 100, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 500, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 500, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 500, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 500, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 500, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 500, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 500, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 500, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 500, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 500, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 500, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 500, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 500, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 500, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 500, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 500, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 500, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 500, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 500, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 500, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 500, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 500, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 500, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 500, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 500, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 1000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 2000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 2000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 2000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 2000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 2000, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 2000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 2000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 2000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 2000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 2000, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 2000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 2000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 2000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 2000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 2000, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 2000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 2000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 2000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 2000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 2000, "seed": 3, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 2000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 2000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 2000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 0.5}
+{"sweep": "main", "gen": "fall", "model": "raw_mlp", "n_train_pairs": 2000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "main", "gen": "fall", "model": "minirocket", "n_train_pairs": 2000, "seed": 4, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "ops=full", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "ops=full", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "ops=full", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "noalpha", "tau_mode": "selected", "tag": "ops=noalpha", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "noalpha", "tau_mode": "selected", "tag": "ops=noalpha", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "noalpha", "tau_mode": "selected", "tag": "ops=noalpha", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "alpha", "tau_mode": "selected", "tag": "ops=alpha", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "alpha", "tau_mode": "selected", "tag": "ops=alpha", "tau": 0.45, "auroc": 0.999992}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "alpha", "tau_mode": "selected", "tag": "ops=alpha", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "order_invariant_only", "tau_mode": "selected", "tag": "ops=order_invariant_only", "tau": 0.45, "auroc": 0.5}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "order_invariant_only", "tau_mode": "selected", "tag": "ops=order_invariant_only", "tau": 0.45, "auroc": 0.5}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "order_invariant_only", "tau_mode": "selected", "tag": "ops=order_invariant_only", "tau": 0.45, "auroc": 0.5}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "order_only", "tau_mode": "selected", "tag": "ops=order_only", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "order_only", "tau_mode": "selected", "tag": "ops=order_only", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "order_only", "tau_mode": "selected", "tag": "ops=order_only", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "quantiles", "tau_mode": "selected", "tag": "ops=quantiles", "tau": 0.45, "auroc": 0.5}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "quantiles", "tau_mode": "selected", "tag": "ops=quantiles", "tau": 0.45, "auroc": 0.5}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "quantiles", "tau_mode": "selected", "tag": "ops=quantiles", "tau": 0.45, "auroc": 0.5}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "slopes", "tau_mode": "selected", "tag": "ops=slopes", "tau": 0.45, "auroc": 0.999928}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "slopes", "tau_mode": "selected", "tag": "ops=slopes", "tau": 0.45, "auroc": 0.999988}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "slopes", "tau_mode": "selected", "tag": "ops=slopes", "tau": 0.45, "auroc": 0.999996}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "endpoints", "tau_mode": "selected", "tag": "ops=endpoints", "tau": 0.45, "auroc": 0.9984799999999999}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "endpoints", "tau_mode": "selected", "tag": "ops=endpoints", "tau": 0.45, "auroc": 0.9947199999999999}
+{"sweep": "operators", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "endpoints", "tau_mode": "selected", "tag": "ops=endpoints", "tau": 0.45, "auroc": 0.999296}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "taumode=selected", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "taumode=selected", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "selected", "tag": "taumode=selected", "tau": 0.45, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "fixed03", "tag": "taumode=fixed03", "tau": 0.3, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "fixed03", "tag": "taumode=fixed03", "tau": 0.3, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "fixed03", "tag": "taumode=fixed03", "tau": 0.3, "auroc": 0.999928}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {}, "ops": "full", "tau_mode": "random", "tag": "taumode=random", "tau": 0.75, "auroc": 0.9992239999999999}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {}, "ops": "full", "tau_mode": "random", "tag": "taumode=random", "tau": 0.5, "auroc": 1.0}
+{"sweep": "operators", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {}, "ops": "full", "tau_mode": "random", "tag": "taumode=random", "tau": 0.7, "auroc": 0.983952}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.15|fixedtau", "tau": 0.3, "auroc": 0.9991479999999999}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.15|fixedtau", "tau": 0.3, "auroc": 0.999752}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.15", "tau": 0.4, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.15}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.15|fixedtau", "tau": 0.3, "auroc": 0.999612}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.3|fixedtau", "tau": 0.3, "auroc": 0.991768}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.3|fixedtau", "tau": 0.3, "auroc": 0.9938400000000001}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.3", "tau": 0.55, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.3}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.3|fixedtau", "tau": 0.3, "auroc": 0.992956}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.5|fixedtau", "tau": 0.3, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.5|fixedtau", "tau": 0.3, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.5", "tau": 0.45, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.5}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.5|fixedtau", "tau": 0.3, "auroc": 0.999928}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.65, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.65, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.65, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.7|fixedtau", "tau": 0.3, "auroc": 0.999612}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.7, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.7, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.7, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.7|fixedtau", "tau": 0.3, "auroc": 0.998596}
+{"sweep": "timing", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.65, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.65, "auroc": 1.0}
+{"sweep": "timing", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "selected", "tag": "p1=0.7", "tau": 0.65, "auroc": 0.5}
+{"sweep": "timing", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"p1": 0.7}, "ops": "full", "tau_mode": "fixed03", "tag": "p1=0.7|fixedtau", "tau": 0.3, "auroc": 0.999632}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 0.883276}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.5, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.5, "auroc": 0.8742320000000001}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.5, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.5, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 0.8807959999999999}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 1.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=1.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 0.9940119999999999}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.5, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.5, "auroc": 0.99254}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.5, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.5, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 0.991524}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 2.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=2.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 0.999972}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 0.999936}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 4.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=4.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 8.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=8.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "noise", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "noise", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"snr": 16.0}, "ops": "full", "tau_mode": "selected", "tag": "snr=16.0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 0}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=0", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 8}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=8", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 32}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=32", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 0, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 1, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "distractor", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 0.5}
+{"sweep": "distractor", "gen": "fall", "model": "minirocket", "n_train_pairs": 250, "seed": 2, "kwargs": {"d_noise": 120}, "ops": "full", "tau_mode": "selected", "tag": "dnoise=120", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 0.99268}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 0.990572}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 0.9925200000000001}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.05}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.05", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 0.999024}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 0.998472}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 0.998336}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.1}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.1", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.2}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.2", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 0.5}
+{"sweep": "duration", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 1.0}
+{"sweep": "duration", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"dur": 0.4}, "ops": "full", "tau_mode": "selected", "tag": "dur=0.4", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 0.998596}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 0.999028}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 0.998768}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 30}, "ops": "full", "tau_mode": "selected", "tag": "T=30", "tau": 0.5, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 0.99992}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 0.999972}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 60}, "ops": "full", "tau_mode": "selected", "tag": "T=60", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 150}, "ops": "full", "tau_mode": "selected", "tag": "T=150", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 0, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 1, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 0.5}
+{"sweep": "length", "gen": "fall", "model": "dts_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "alpha_lr", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 1.0}
+{"sweep": "length", "gen": "fall", "model": "bof_hgb", "n_train_pairs": 250, "seed": 2, "kwargs": {"T": 300}, "ops": "full", "tau_mode": "selected", "tag": "T=300", "tau": 0.45, "auroc": 0.5}

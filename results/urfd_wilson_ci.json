@@ -1,0 +1,13 @@
+{
+ "metric": "URFD zero-shot precision (30 TP / 59 predicted positives)",
+ "wilson_95ci": [
+  0.384351,
+  0.631562
+ ],
+ "legacy_artifact_value": [
+  0.3793103448275862,
+  0.6379310344827587
+ ],
+ "legacy_interval_type": "Clopper-Pearson",
+ "note": "Papers state Wilson intervals for count metrics and print [0.384, 0.632]. URFD recall and all GMDCSA count CIs in the artifacts are already Wilson; this file regenerates the single inconsistent cell without altering the original run record (results/legacy/ninefive_results.json)."
+}

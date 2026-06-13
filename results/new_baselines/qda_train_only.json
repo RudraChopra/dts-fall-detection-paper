@@ -1,0 +1,14 @@
+{
+ "scope": "training split only, corrected twin-free data, hip-speed alpha (column 63)",
+ "mu_f": 0.16238580005165476,
+ "sigma_f": 0.16916980774974139,
+ "mu_n": 0.381201136949633,
+ "sigma_n": 0.20902289421656303,
+ "levene_p": 5.249369376944219e-16,
+ "x1": -0.7995660009695655,
+ "x2": 0.29338096502625355,
+ "p_miss": 0.21936450654678485,
+ "p_fa": 0.33718932389868306,
+ "eps_star": 0.27827691522273396,
+ "note": "supersedes the legacy-artifact estimates used in earlier drafts"
+}

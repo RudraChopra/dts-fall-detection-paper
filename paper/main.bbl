@@ -1,0 +1,111 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[de~Miguel et~al.(2017)de~Miguel, Brunete, Hernando, and
+  Gambao]{demiguel2017}
+Koldo de~Miguel, Alberto Brunete, Miguel Hernando, and Ernesto Gambao.
+\newblock Home camera-based fall detection system for the elderly.
+\newblock \emph{Sensors}, 17\penalty0 (12):\penalty0 2864, 2017.
+
+\bibitem[Dempster et~al.(2020)Dempster, Petitjean, and Webb]{dempster2020}
+Angus Dempster, Fran{\c{c}}ois Petitjean, and Geoffrey~I. Webb.
+\newblock Rocket: Exceptionally fast and accurate time series classification
+  using random convolutional kernels.
+\newblock \emph{Data Mining and Knowledge Discovery}, 34:\penalty0 1454--1495,
+  2020.
+
+\bibitem[Dempster et~al.(2021)Dempster, Schmidt, and Webb]{dempster2021}
+Angus Dempster, Daniel~F. Schmidt, and Geoffrey~I. Webb.
+\newblock Minirocket: A very fast (almost) deterministic transform for time
+  series classification.
+\newblock In \emph{Proceedings of the 27th ACM SIGKDD Conference on Knowledge
+  Discovery and Data Mining}, pages 248--257, 2021.
+
+\bibitem[Duan et~al.(2022)Duan, Zhao, Chen, Lin, and Dai]{duan2022}
+Haodong Duan, Yue Zhao, Kai Chen, Dahua Lin, and Bo~Dai.
+\newblock Revisiting skeleton-based action recognition.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, 2022.
+
+\bibitem[{FallVision Dataset}(2024)]{fallvision2024}
+{FallVision Dataset}.
+\newblock Fallvision: A large-scale skeleton fall detection benchmark.
+\newblock Harvard Dataverse, DOI:10.7910/DVN/75QPKK, 2024.
+
+\bibitem[Igual et~al.(2013)Igual, Medrano, and Plaza]{igual2013}
+Raul Igual, Carlos Medrano, and Inmaculada Plaza.
+\newblock Challenges, issues and trends in fall detection systems.
+\newblock \emph{BioMedical Engineering OnLine}, 12\penalty0 (66), 2013.
+
+\bibitem[Kwolek and Kepski(2014)]{kwolek2014}
+Bogdan Kwolek and Michal Kepski.
+\newblock Human fall detection on embedded platform using depth maps and
+  wireless accelerometer.
+\newblock \emph{Computer Methods and Programs in Biomedicine}, 117\penalty0
+  (3):\penalty0 489--501, 2014.
+
+\bibitem[Lin and Dong(2021)]{lin2021}
+Chuan-Bi Lin and Si-Ping Dong.
+\newblock Human fall detection with a robot using gait skeleton and body pose.
+\newblock \emph{Applied Sciences}, 11\penalty0 (20):\penalty0 9596, 2021.
+
+\bibitem[Liu et~al.(2020)Liu, Zhang, Chen, Wang, and Ouyang]{liu2020}
+Ziyu Liu, Hongwen Zhang, Zhenghao Chen, Zhiyong Wang, and Wanli Ouyang.
+\newblock Disentangling and unifying graph convolutions for skeleton-based
+  action recognition.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, 2020.
+
+\bibitem[Middlehurst et~al.(2024)Middlehurst, Ismail-Fawaz, Guillaume, Holder,
+  Guijo-Rubio, Bulatova, Tsaprounis, Mentel, Walter, Sch{\"a}fer, and
+  Bagnall]{middlehurst2024}
+Matthew Middlehurst, Ali Ismail-Fawaz, Antoine Guillaume, Christopher Holder,
+  David Guijo-Rubio, Guzal Bulatova, Leonidas Tsaprounis, Lukasz Mentel, Martin
+  Walter, Patrick Sch{\"a}fer, and Anthony Bagnall.
+\newblock aeon: A python toolkit for learning from time series.
+\newblock \emph{Journal of Machine Learning Research}, 25\penalty0
+  (124):\penalty0 1--10, 2024.
+
+\bibitem[Mubashir et~al.(2013)Mubashir, Shao, and Seed]{mubashir2013}
+Muhammad Mubashir, Ling Shao, and Luke Seed.
+\newblock A survey on fall detection: Principles and approaches.
+\newblock \emph{Neurocomputing}, 100:\penalty0 144--152, 2013.
+
+\bibitem[Pang et~al.(2021)Pang, Shen, Cao, and van~den Hengel]{pang2021}
+Guansong Pang, Chunhua Shen, Longbing Cao, and Anton van~den Hengel.
+\newblock Deep learning for anomaly detection: A review.
+\newblock \emph{ACM Computing Surveys}, 54\penalty0 (2):\penalty0 1--38, 2021.
+
+\bibitem[Rajpurkar et~al.(2017)Rajpurkar, Hannun, Haghpanahi, Bourn, and
+  Ng]{rajpurkar2017}
+Pranav Rajpurkar, Awni~Y. Hannun, Masoumeh Haghpanahi, Codie Bourn, and
+  Andrew~Y. Ng.
+\newblock Cardiologist-level arrhythmia detection with convolutional neural
+  networks.
+\newblock \emph{arXiv preprint arXiv:1707.01836}, 2017.
+
+\bibitem[Shi et~al.(2019)Shi, Zhang, Cheng, and Lu]{shi2019}
+Lei Shi, Yifan Zhang, Jian Cheng, and Hanqing Lu.
+\newblock Skeleton-based action recognition with directed graph neural
+  networks.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, 2019.
+
+\bibitem[Yan et~al.(2018)Yan, Xiong, and Lin]{yan2018}
+Sijie Yan, Yuanjun Xiong, and Dahua Lin.
+\newblock Spatial temporal graph convolutional networks for skeleton-based
+  action recognition.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, 2018.
+
+\bibitem[Zhu et~al.(2025)]{zhu2025}
+Xin Zhu et~al.
+\newblock Fall detection using graph convolutional network with skeleton
+  sequences.
+\newblock \emph{IEEE Sensors Journal}, 2025.
+
+\end{thebibliography}

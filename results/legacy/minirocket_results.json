@@ -1,0 +1,96 @@
+{
+  "split": {
+    "seed": 42,
+    "protocol": "count-matched strict FallVision resample from 5,793 parsed clips",
+    "n_parsed_total": 5793,
+    "n_total": 4927,
+    "n_train": 3153,
+    "n_val": 788,
+    "n_test": 986,
+    "test_falls": 431,
+    "test_nonfalls": 555,
+    "scenarios": {
+      "Bed": 1814,
+      "Chair": 1950,
+      "Stand": 2029
+    },
+    "session_id_counts": {
+      "1": 1581,
+      "2": 1637,
+      "3": 2161,
+      "4": 414
+    }
+  },
+  "preprocessing": {
+    "channels": 34,
+    "max_T": 150,
+    "normalization": "hip-centred, torso-normalised; confidence<0.10 zeroed"
+  },
+  "tried": [
+    {
+      "n_kernels": 1000,
+      "validation": {
+        "f1": 0.8703170028818443,
+        "auroc": 0.8846337553570844,
+        "auprc": 0.8120453768868479,
+        "prec": 0.8653295128939829,
+        "rec": 0.8753623188405797,
+        "acc": 0.8857868020304569,
+        "tp": 302,
+        "fp": 47,
+        "fn": 43,
+        "tn": 396,
+        "thr": 0.05
+      }
+    },
+    {
+      "n_kernels": 5000,
+      "validation": {
+        "f1": 0.9035971223021583,
+        "auroc": 0.9144404095920438,
+        "auprc": 0.8558701222267764,
+        "prec": 0.8971428571428571,
+        "rec": 0.9101449275362319,
+        "acc": 0.9149746192893401,
+        "tp": 314,
+        "fp": 36,
+        "fn": 31,
+        "tn": 407,
+        "thr": 0.05
+      }
+    },
+    {
+      "n_kernels": 10000,
+      "validation": {
+        "f1": 0.9111747851002865,
+        "auroc": 0.9213661792128766,
+        "auprc": 0.8646125244850864,
+        "prec": 0.9008498583569405,
+        "rec": 0.9217391304347826,
+        "acc": 0.9213197969543148,
+        "tp": 318,
+        "fp": 35,
+        "fn": 27,
+        "tn": 408,
+        "thr": 0.05
+      }
+    }
+  ],
+  "selected": {
+    "n_kernels": 10000,
+    "threshold": 0.05
+  },
+  "MiniROCKET": {
+    "f1": 0.9316628701594533,
+    "auroc": 0.9402437240024247,
+    "auprc": 0.8905964220788144,
+    "prec": 0.9149888143176734,
+    "rec": 0.9489559164733179,
+    "acc": 0.9391480730223124,
+    "tp": 409,
+    "fp": 38,
+    "fn": 22,
+    "tn": 517,
+    "thr": 0.05
+  }
+}
