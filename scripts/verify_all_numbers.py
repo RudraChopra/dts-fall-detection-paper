@@ -45,6 +45,7 @@ REQUIRED = [
  "results/new_baselines/lc_paired.json",
  "results/new_baselines/bonferroni8.json",
  "results/new_baselines/qda_train_only.json",
+ "results/new_baselines/bed3_summary.json",
  "paper_bench/synth_bench.py", "paper_bench/results_all.jsonl",
  "paper_bench/verify_theorem.py", "paper_bench/NUMBERS_AUDIT.md",
  "paper_bench/REPRO_COMMANDS.md", "requirements.txt",
@@ -127,8 +128,15 @@ print(f"  (InceptionTime artifact: AUROC {ic['auroc']:.4f}, FP {ic['fp']}, FN {i
 check("InceptionTime artifact internally consistent",
       ic["n_networks"] >= 3 and 0.5 < ic["auroc"] < 1.0)
 bc = json.load(open(R / "results/new_baselines/bed_compare_summary.json"))
-check("Bed few-shot: DTS leads at every K",
+check("Bed few-shot: DTS leads MiniROCKET at every K",
       all(bc[k]["hgb"][0] > bc[k]["mr"][0] for k in bc))
+# Experiment A: matched 3-way Bed few-shot (cache-based). DTS > MiniROCKET; MultiROCKET >= DTS.
+b3 = json.load(open(R / "results/new_baselines/bed3_summary.json"))
+check("Bed3: anchors DTS K0=0.715 K200=0.858",
+      close(b3["0"]["dts_hgb"][0], 0.7148, 2e-3) and close(b3["200"]["dts_hgb"][0], 0.8575, 2e-3))
+check("Bed3: DTS>MiniROCKET and MultiROCKET>=DTS at every K",
+      all(b3[k]["dts_hgb"][0] > b3[k]["minirocket"][0] and
+          b3[k]["multirocket"][0] >= b3[k]["dts_hgb"][0] - 1e-9 for k in b3))
 lcm = json.load(open(R / "results/new_baselines/lc_multirocket.json"))
 for n, e in [("250", 0.9501), ("500", 0.9578), ("1000", 0.9737), ("2000", 0.9788), ("3565", 0.9868)]:
     check(f"MultiROCKET LC n={n} = {e}", close(lcm[n]["auroc"], e, 1e-3))

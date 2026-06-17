@@ -1,0 +1,58 @@
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+Setting & DTS+HGB & $\alpha$-only+LR & Bag-of-frames & MiniROCKET \\
+\midrule
+\multicolumn{5}{l}{\emph{Drop SNR $\mu_d/\sigma_s$ (fall, $n{=}250$)}} \\
+SNR 1 & 1.000 & 0.879{\scriptsize$\pm$0.004} & 0.500 & 1.000 \\
+SNR 2 & 1.000 & 0.993{\scriptsize$\pm$0.001} & 0.500 & 1.000 \\
+SNR 4 & 1.000 & 1.000 & 0.500 & 1.000 \\
+SNR 8 & 1.000 & 1.000 & 0.500 & 1.000 \\
+SNR 16 & 1.000 & 1.000 & 0.500 & 1.000 \\
+\midrule
+\multicolumn{5}{l}{\emph{Event onset $p_1$ (fall, $n{=}250$)}} \\
+$p_1{=}0.15$ & 1.000 & 1.000 & 0.500 & -- \\
+$p_1{=}0.3$ & 1.000 & 1.000 & 0.500 & -- \\
+$p_1{=}0.5$ & 1.000 & 1.000 & 0.500 & -- \\
+$p_1{=}0.7$ & 1.000 & 1.000 & 0.500 & -- \\
+\midrule
+\multicolumn{5}{l}{\emph{$\alpha$-only with misspecified fixed $\tau{=}0.30$ vs train-selected $\tau$}} \\
+$p_1{=}0.15$ & \multicolumn{2}{c}{selected: 1.000} & \multicolumn{2}{c}{fixed 0.30: 1.000} \\
+$p_1{=}0.3$ & \multicolumn{2}{c}{selected: 1.000} & \multicolumn{2}{c}{fixed 0.30: 0.993{\scriptsize$\pm$0.001}} \\
+$p_1{=}0.5$ & \multicolumn{2}{c}{selected: 1.000} & \multicolumn{2}{c}{fixed 0.30: 1.000} \\
+$p_1{=}0.7$ & \multicolumn{2}{c}{selected: 1.000} & \multicolumn{2}{c}{fixed 0.30: 0.999} \\
+\midrule
+\multicolumn{5}{l}{\emph{Distractor channels added (fall, $n{=}250$)}} \\
++0 noise ch. & 1.000 & 1.000 & 0.500 & 1.000 \\
++8 noise ch. & 1.000 & 1.000 & 0.500 & 1.000 \\
++32 noise ch. & 1.000 & 1.000 & 0.500 & 1.000 \\
++120 noise ch. & 1.000 & 1.000 & 0.500 & 1.000 \\
+\midrule
+\multicolumn{4}{l}{\emph{Event duration $p_2{-}p_1$ (fall, $n{=}250$)}} \\
+dur 0.05 & 1.000 & 0.992{\scriptsize$\pm$0.001} & 0.500 \\
+dur 0.1 & 1.000 & 0.999 & 0.500 \\
+dur 0.2 & 1.000 & 1.000 & 0.500 \\
+dur 0.4 & 1.000 & 1.000 & 0.500 \\
+\midrule
+\multicolumn{4}{l}{\emph{Sequence length $T$ (fall, $n{=}250$)}} \\
+$T{=}30$ & 1.000 & 0.999 & 0.500 \\
+$T{=}60$ & 1.000 & 1.000 & 0.500 \\
+$T{=}150$ & 1.000 & 1.000 & 0.500 \\
+$T{=}300$ & 1.000 & 1.000 & 0.500 \\
+\midrule
+\multicolumn{5}{l}{\emph{Operator-bank ablation, DTS+HGB (fall, $n{=}250$)}} \\
+full 16-operator bank & \multicolumn{4}{c}{1.000} \\
+$-$ all $\alpha$ & \multicolumn{4}{c}{1.000} \\
+$\alpha$ only & \multicolumn{4}{c}{1.000} \\
+order-sensitive ops only & \multicolumn{4}{c}{1.000} \\
+order-invariant ops only & \multicolumn{4}{c}{0.500} \\
+quantiles/min/max only & \multicolumn{4}{c}{0.500} \\
+slopes only & \multicolumn{4}{c}{1.000} \\
+endpoints only & \multicolumn{4}{c}{0.997{\scriptsize$\pm$0.002}} \\
+\bottomrule
+\end{tabular}
+\caption{Controlled-benchmark sweeps (held-out AUROC, mean$\pm$sd over three seeds, 500 test pairs). Bag-of-frames remains at exactly 0.500 in every setting, as Theorem~\ref{thm:impossibility} requires, and order-invariant operator subsets of the signature itself (quantiles, min/max) also sit exactly at chance, confirming that the order-sensitive operators carry all discriminative signal. $\alpha$-only degrades as drop SNR approaches 1 and dips mildly under a misspecified fixed $\tau$ or very short events, while the full operator bank and train-selected $\tau$ remain at ceiling. At these settings every order-sensitive method solves the constructions, including with 120 distractor channels: the family measures the necessity of order sensitivity, not separation among order-sensitive methods.}
+\label{tab:benchsweeps}
+\end{table}

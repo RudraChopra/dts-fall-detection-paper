@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{2}{c}{Fall} & \multicolumn{2}{c}{Sit-to-stand} & \multicolumn{2}{c}{Reversal} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Model & $n{=}100$ & $n{=}1000$ & $n{=}100$ & $n{=}1000$ & $n{=}100$ & $n{=}1000$ \\
+\midrule
+DTS+HGB (128-d) & 0.995{\scriptsize$\pm$0.002} & 1.000 & 0.998{\scriptsize$\pm$0.002} & 1.000 & 1.000 & 1.000 \\
+$\alpha$-only+LR (8-d) & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+MiniROCKET+Ridge & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+Raw-seq MLP & 1.000 & 1.000 & 1.000 & 1.000 & 0.993{\scriptsize$\pm$0.010} & 1.000 \\
+Bag-of-frames+HGB & 0.500 & 0.500 & 0.500 & 0.500 & 0.500 & 0.500 \\
+\bottomrule
+\end{tabular}
+\caption{Expanded controlled temporal-order benchmark: held-out AUROC (mean$\pm$sd over five seeds, 500 test pairs) on three constructions in which negatives are frame permutations (Fall, Sit-to-stand) or exact time reversals (Reversal) of positives, so class-conditional frame multisets are identical and Theorem~\ref{thm:impossibility} applies. Order-invariant bag-of-frames is exactly at chance everywhere; the structured signature and order-sensitive baselines solve all three constructions.}
+\label{tab:bench}
+\end{table}
